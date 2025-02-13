@@ -1,0 +1,67 @@
+.body-container{
+    background-color: #ff6961;
+    height: calc(100vh - 60px);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.emojis-box{
+    background-color: white;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    text-align: center;
+}
+.raffle-box{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-raffle {
+    background-color: white;
+    color: #ff6961;
+    font-size: 20px;
+    border: 2px solid #ff6961;
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-raffle:hover {
+    background-color: #ff6961;
+    color: white; 
+    transform: scale(1.05);
+}
+
+.btn-raffle:active {
+    transform: scale(0.98);
+}
+.history-box {
+    margin-top: 20px;
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto; 
+}
+
+.history-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.history-item {
+    margin: 5px 0;
+    font-size: 20px;
+}
+.text-title2{
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
